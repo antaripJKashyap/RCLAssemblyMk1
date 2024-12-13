@@ -15,7 +15,7 @@ class Skill:
     def __init__(self, skillTitle, skillBody):
         self.skillTitle = skillTitle
         self.body = skillBody
-        print("Skil Created") ##TODO
+        print("Skil Created") ##TODOtst
 
 class Date:
     def __init__(self, dateAsNum):
