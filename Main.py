@@ -37,7 +37,7 @@ paragraphs = [para.text for para in doc.paragraphs if para.text.strip()]
 #sampleDate = Date(123456)
 companyName = paragraphs[1]
 addressContainer = paragraphs[2], paragraphs[3], paragraphs[4]
-print(addressContainer)
+#print(addressContainer)
 
 skillsContainer = []
 index = 0
@@ -47,8 +47,14 @@ for parsed in paragraphs :
         skillsContainer.append(Skill(paragraphs[index], paragraphs[index + 1]))
     index += 1
 
-for skill in skillsContainer :
-    print(skill.skillBody)
+residualContainer = []
+# for currIndex in (index, len(paragraphs) - 1) :
+#     residualContainer.append(paragraphs[currIndex])
+#
+# print(residualContainer)
+
+# for skill in skillsContainer :
+#     print(skill.skillBody)
 
 #print(skillsContainer)
 # var1 = paragraphs[24]
