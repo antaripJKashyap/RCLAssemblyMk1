@@ -1,5 +1,7 @@
 from docx import Document
 
+#M1 class declarations
+
 class Address:
     def __init__(self, line1, line2, postalcode):
         self.line1 = line1
@@ -23,6 +25,8 @@ class Date:
     def createDate(self):
         print("Date fn accessible")
 
+
+# M2- setup and loading data to containers; set customizables as needed- Date and company
 
 # Load the master document with all phrases
 doc = Document("AA Cover Letter BASE.docx")
@@ -48,6 +52,8 @@ for parsed in paragraphs :
     index += 1
 
 residualContainer = []
+
+
 # for currIndex in (index, len(paragraphs) - 1) :
 #     residualContainer.append(paragraphs[currIndex])
 #
@@ -56,6 +62,26 @@ residualContainer = []
 # for skill in skillsContainer :
 #     print(skill.skillBody)
 
+
+
+#M3- ask for inputs and reset the customizables
+
+#company name
+
+#address
+
+#skills needed, set and produce
+
+
+
+#M4- assemble CL and produce
+
+
+
+
+
+
+#TESTING
 #print(skillsContainer)
 # var1 = paragraphs[24]
 # var = type(paragraphs[2])
