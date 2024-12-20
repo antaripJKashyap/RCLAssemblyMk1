@@ -21,7 +21,7 @@ class Date:
         self.dateAsNum = dateAsNum
         self.createDate()
     def createDate(self):
-        print("Date fn accessible") ##TODO
+        print("Date fn accessible")
 
 
 # Load the master document with all phrases
