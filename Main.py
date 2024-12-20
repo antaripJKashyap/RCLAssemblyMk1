@@ -5,23 +5,23 @@ class Address:
         self.line1 = line1
         self.line2 = line2
         self.postalcode = postalcode
-        print("Address Created") ##TODO
+        print("Address Created")
 
     def produceAddress(self, inputString):
         #split string into line1, line2, and postalcode
-        self.line1 = inputString ##TODO
+        self.line1 = inputString
 
 class Skill:
     def __init__(self, skillTitle, skillBody):
         self.skillTitle = skillTitle
-        self.skillBody = skillBody ##TODO
+        self.skillBody = skillBody
 
 class Date:
     def __init__(self, dateAsNum):
         self.dateAsNum = dateAsNum
         self.createDate()
     def createDate(self):
-        print("Date fn accessible") ##TODO
+        print("Date fn accessible")
 
 
 # Load the master document with all phrases
